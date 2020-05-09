@@ -1,0 +1,38 @@
+{
+    "mobile-nixos": {
+        "branch": "master",
+        "description": "Questions? #nixos-aarch64 (or #nixos) on Freenode!",
+        "homepage": "https://mobile.nixos.org/",
+        "owner": "nixos",
+        "repo": "mobile-nixos",
+        "rev": "ea7bad0879ee09d2495852bd03180ae232b2eea1",
+        "sha256": "1pzp79j9w87j1kvgwkypql44qwqracz2qaic6mdzj3mpr6ghpf8w",
+        "type": "tarball",
+        "url": "https://github.com/nixos/mobile-nixos/archive/ea7bad0879ee09d2495852bd03180ae232b2eea1.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "f73bf8d584148677b01859677a63191c31911eae",
+        "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-unstable",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs-channels",
+        "rev": "fce7562cf46727fdaf801b232116bc9ce0512049",
+        "sha256": "14rvi69ji61x3z88vbn17rg5vxrnw2wbnanxb7y0qzyqrj7spapx",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs-channels/archive/fce7562cf46727fdaf801b232116bc9ce0512049.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
